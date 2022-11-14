@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   ACTON III product pagina (speaker) 
-  <img src="readme-images/actton.png" width="375px" alt="Acton III speaker product pagina">
+  <img src="readme-images/acton.png" width="375px" alt="Acton III speaker product pagina">
  
 </details>
 
