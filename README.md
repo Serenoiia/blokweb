@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.marshallheadphones.com/nl/en/
+  https://www.viviennewestwood.com/en/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina 
-  <img src="readme-images/home.png" width="375px" alt="Home pagina van Marshall">
+  <img src="readme-images/home.png" width="375px" alt="Home pagina van Vivienne Westwoord">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  ACTON III product pagina (speaker) 
-  <img src="readme-images/acton.png" width="375px" alt="Acton III speaker product pagina">
+  Tiny orb pendant necklace 
+  <img src="readme-images/necklace.png" width="375px" alt="Tiny orb pendant necklace">
  
 </details>
 
