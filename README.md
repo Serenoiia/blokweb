@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina 
-  <img src="readme-images/home.png" width="375px" alt="Home pagina van Vivienne Westwoord">
+  <img src="readme-images/vw.png" width="375px" alt="Home pagina van Vivienne Westwoord">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Tiny orb pendant necklace 
