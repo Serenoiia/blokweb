@@ -65,12 +65,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   <img src="readme-images/headings.jpg" width="250px" alt="Heading lijst van Vivienne Westwood">
+
 - De site van Vivienne Westwood is niet gemaakt voor een screen reader. Het pakte ook elementemn op axhter een  
   afbeelding die niet eens aanwezig waren en dat maakt het heel ongebruiksvriendelijk. De headings zijn steeds het
   zelfde en worden herhaald. Daarnaast kloppen niet alle linkjes die worden weergeven door de
   screen reader en worden ze ook herhaald. 
 
   <img src="readme-images/linkjes.jpg" width="250px" alt="Linkjes lijst van Vivienne Westwood">
+
   Hoe dit opgelost zou worden is door goed aan te geven wat de headings zijn in de code.
   Ook kan er gekeken worden naar het gebruik van linkjes en die duidelijker maken voor de mensen
   die een screenreader gebruiken.
@@ -143,11 +145,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Sasja                                       | Jeannet              | Mischa              | Naim   |
+  | ---                                         | ---                  | ---                 | ---    |
+  | Hamburger menu als scherm klein genoeg is   | Dynamische breakdown | Witruimte website   | ...    |
+  | Wanneer flexbox,grid of position  gebruiken | Video in readme      | ...                 | ...    |
+  |                                             | ...                  | ...                 | ...     |
 
 
   ### Verslag van meeting
