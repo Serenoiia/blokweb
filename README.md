@@ -114,13 +114,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/Full-breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/menu-breakdown.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdown-menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/accordion-breakdown.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/details-breakdown.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -155,10 +155,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Detail element gebruiken voor een uitklapbaar item inplaats van een A.
+  - Hamburger menu door java script, krijgen we later uitleg van in de les.
+  - Gifjes gebruiken inplaats van video's en anders een youtube linkje.
 
 </details>
 
@@ -178,11 +177,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Jeannet                                 | Sasja              | Misha            | Naim             |
+  | ---                                     | ---                | ---              | ---              |
+  | Header scrollen dat die kleiner wordt   | en dit             | en ik dit        | ...              |
+  | Fixed header gaat achter content door   | nog een punt       | dit wil ik zeker | ...              |
+  | Hamburgermenu het logo & cart zien      | ...                | ...              | ...              |
 
 
   ### Verslag van meeting

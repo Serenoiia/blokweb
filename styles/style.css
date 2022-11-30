@@ -2,7 +2,7 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing: border-box;  
 }
 
 button, summary {
@@ -10,21 +10,427 @@ button, summary {
 }
 
 
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #000;
+	--color-text2: #fff;
+	--color-background: #ffff;
+}
+
+body{
+	background-color: var(--color-background);
+	color: var(--color-text);
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 
 
 
 
+
+/*********/
+/* Fonts */
+/*********/
+H1{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+H2{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+H3{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding-left: 0.9em;
+	font-size: 1em;
+}
+
+P{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 0.8em;
+	line-height:1.5em;
+}
+
+
+
+
+
+/***********************/
+/* Algemeene Elementen */
+/***********************/
+img{
+	width: 100%;
+	repeat: no-repeat;
+}
+
+a{
+	text-decoration: none;
+	color: var(--color-text);
+}
+
+Li{
+	list-style-type: none;
+}
+
+ul{
+	text-decoration: none;
+	color: var(--color-text);
+	padding: 0;
+}
+
+
+
+
+
+/************/
+/* Header */
+/************/
+nav {
+	padding:1em;
+	
+	display:grid;
+	align-content:start;
+	gap:1em;
+	
+	background-color:var(--color-text2);
+
+	Position:fixed;
+  	left: 0;
+	right: 0;
+  	top: 0;
+	bottom: 0;
+
+	transform: translateX(-100%);
+	transition-duration: 0.3s;
+}
+
+/* Linkjes van de nav*/
+nav a {
+	display:flex;
+	align-items:center;
+	column-gap:.25em;
+}
+
+/* Hamburger menu verschijnt*/
+nav.toonMenu {
+	transform: translateX(0);
+  }
+
+/* Header styling*/
+header{
+	padding: 1em;
+	background-color: var(--color-text2);
+
+	Display:flex;
+  	justify-content:space-between;
+  	align-items:start;
+  	position:sticky;
+  	top:0;
+}
+
+/* Header buttons styling*/
+header button{
+	border:none;
+	background-color: var(--color-text2);
+	color: var(--color-text1);
+	text-transform: uppercase;
+	font-weight:300;
+	font-size:0.8em;
+
+	padding:.5em;
+	display:flex;
+	align-items:center;
+	width:3em;
+}
+
+/* Header order*/
+header > button {
+	order:-1;
+  }
+
+/* Header ul*/
+header ul{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	gap:1em;
+}
+
+/* Header logo*/
+header img{
+	width: 7.6em;
+}
+
+/* Header hamburger menu en close*/
+header button img{
+	width: 1.6em;
+}
+
+/* Winkel mandje*/
+header a:nth-of-type(2) img{
+	width: 1.1em;
+	margin:.3em;
+}
+
+
+
+
+/*************************/
+/* Section Discover more */
+/*************************/
+section h2{
+	margin-bottom: 0.4em;
+}
+
+/* Curve border image styling*/
+section img:nth-of-type(2){
+	width: 8.2em;
+	margin-top: -0.3em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+/*********************************/
+/* Section Womanswear & Menswear */
+/*********************************/
+section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4){
+	margin-top: 7em;
+}
+
+/* Main image spacing */
+section:nth-of-type(2) img, section:nth-of-type(3) img{
+	margin-bottom: 2.5em;
+}
+
+/* Curve border image styling*/
+section:nth-of-type(2) img:nth-of-type(2), section:nth-of-type(3) img:nth-of-type(2){
+	width: 6.5em;
+}
+
+
+
+
+
+/*****************************/
+/* Section Featured Products */
+/*****************************/
+section:nth-of-type(4) a{
+	font-weight: 500;
+}
+
+/* producten */
+section:nth-of-type(4) ul{
+	display: grid;
+  	grid-template-columns: 50% 50%;
+	grid-gap:1em;
+	margin: 2em 2em 0 1em;
+}
+
+/* P tekst spacing */
+section:nth-of-type(4) p{
+	padding:0 1em;
+}
+
+
+
+
+
+/***********************/
+/* Section Accessories */
+/***********************/
+section:nth-of-type(5){
+	Position: relative;
+	Margin-top:6em;
+}
+
+/* h2 styling over de image*/
+section:nth-of-type(5) h2{
+	Position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	
+	margin: 1.5em;
+	padding: .5em;
+
+	font-weight: 400;
+	font-size: 2.5em;
+	color: var(--color-text2);
+	font-family: 'Tinos', serif;
+	line-height: 1em;
+}
+
+
+
+
+/*********************/
+/* Section Inside VW */
+/*********************/
+section:nth-of-type(6) {
+	margin-top:3.5em;
+}
+
+/* Link styling*/
+section:nth-of-type(6) a{
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+/* Ul styling*/
+section:nth-of-type(6) ul{
+	display: grid;
+  	grid-template-columns: 50% 50%;
+	grid-gap:1em;
+	margin: 2em 2em 0 1em;
+}
+
+/* P styling*/
+section:nth-of-type(6) p{
+	font-weight:700;
+}
+
+/* A in li styling*/
+section:nth-of-type(6) li a{
+	font-weight:300;
+	text-transform: uppercase;
+}
+
+/* laatste i spacing*/
+section:nth-of-type(6) li{
+	margin-bottom:1.5em;
+}
+
+
+
+
+/**********/
+/* Footer */
+/**********/
+footer{
+	margin: 1em
+
+}
+
+Footer img{
+	width:7%;
+}
+
+Footer li{
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	font-size:0.7em;
+	line-height:2.4em;
+}
+
+Footer ul:nth-of-type(1){
+	display:flex;
+	font-weight:300;
+	font-size:0.9em;
+	margin:1em 0;
+	align-items:center;
+}
+
+Footer ul:nth-of-type(1) p{
+	margin:0;
+	padding:0;
+}
+
+Footer ul:nth-of-type(1) img{
+	width:50%;
+}
+
+Footer ul{
+	margin:2.5em 0;
+}
+
+Footer div{
+	display:grid;
+	grid-template-columns: 80% 20%;
+	grid-template-rows: 35% 65%;
+	margin-top:3em;
+}
+
+Footer div:nth-of-type(1) label{
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+
+Button{
+	border:none;
+	background-color: var(--color-text);
+	color: var(--color-text2);
+	text-transform: uppercase;
+	font-weight:300;
+	font-size:0.8em;
+}
+
+label {
+    display: block;
+	text-transform: uppercase;
+	font-weight:300;
+	font-size:0.8em;
+}
+
+div input{
+	border:none;
+	border-bottom: 1px solid black;
+	padding:2em 1em;
+	color: var(--color-text);
+	width:100%;
+	background-color:#EFEFEF;
+
+}
+
+input[type=checkbox]{
+	width: 1.2em;
+ 	height: 1.2em;
+  	border: 0.15em solid currentColor;
+	border-radius:0em;
+
+}
+
+input[type=checkbox]:checked {
+
+  } 
+
+Footer div:nth-of-type(2){
+	Display:grid;
+	grid-template-columns: 5% 90%;
+	margin-top:1em;
+	grid-gap:1em;
+}
+
+Footer div:nth-of-type(2) label{
+	text-transform: none;
+}
+
+Footer div:nth-of-type(2) p{
+	grid-column-start: 1;
+	grid-column-end: -1;
+	text-transform: none;
+	margin:0;
+	font-size:0.6em;
+}
 
 /****************/
 /* JOUW STYLING */
@@ -32,3 +438,50 @@ button, summary {
 
 /* jouw code */
 
+
+
+
+
+@media (min-width:38em) {
+	header > button {
+	  /* JOUW CODE HIER - stap 6 */
+	  Display:none;
+	  
+	}
+	
+	nav {
+	  /* JOUW CODE HIER - stap 7 */
+	 Position: static;
+	 Transform: none;
+	 Padding:;
+	 Background: transparent;
+	  
+	}
+	
+	nav button {
+	  /* JOUW CODE HIER - stap 6 */
+	  Display:none;
+	  
+	}
+	
+	nav ul {
+	  /* JOUW CODE HIER - stap 8 */
+	  display: flex;
+	  gap: 1em;
+	  
+	}
+	
+	nav a {
+	  /* JOUW CODE HIER - stap 9 */
+	  display: flex;
+	  flex-direction: column;
+	  border:none;
+	  
+	}
+	
+	header > a:last-of-type {
+	  /* JOUW CODE HIER - stap 9 */
+	  flex-direction: column;
+	  
+	}
+  }
