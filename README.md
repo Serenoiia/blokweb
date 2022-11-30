@@ -182,6 +182,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | Header scrollen dat die kleiner wordt   | en dit             | en ik dit        | ...              |
   | Fixed header gaat achter content door   | nog een punt       | dit wil ik zeker | ...              |
   | Hamburgermenu het logo & cart zien      | ...                | ...              | ...              |
+  | Index opnieuw upgeload maar oude versie | ...                | ...              | ...              |
 
 
   ### Verslag van meeting
