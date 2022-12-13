@@ -326,9 +326,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ook ben ik javascript iets meer gaan leren te begrijpen maar niet heel veel. Ik dacht eerst dat een dark mode in elkaar zetten heel veel javascript zou zijn maar dat valt echt reuze mee! Ik heb het puur gebruikt om iconen om te kleuren als dark mode aan staat. Het zelfde geld voor de producten slider waar je een on-scroll voor nodig hebt. Ik had daar ook verwacht dat het veel javascript zou zijn. Ook ben ik grid meer gaan begrijpen en hoe dat allemaal in elkaar zit. Het is voor mij soms nog een beetje verwarrend maar ik vind het wel echt een handige manier. Ook wist ik niet dat focus state eigenlijk een ding was en dat zoveel website's niet gebruiksvriendelijk zijn voor mensen met een beperking. Daar sta ik nogsteeds verbaasd over.
 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
-
   ### Dit was lastig/Is niet gelukt:
   Wat me niet gelukt is zijn de lazer stralen omdat ik niet precies weet hoe ik die zou moeten maken.
   Daarnaast wou ik ook nog een onscroll toevoegen voor de header en bij de shopping bag een 1 toevoegen als je pp add to bag klikt maar ik heb moeite met javascript.
